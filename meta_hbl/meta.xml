@@ -10,9 +10,7 @@
 
 	- This app will change your default ENVIRONMENT and
 	the default BOOT TITLE order
-	- It allows you to swap between the Aroma and Tiramisu environments easily
-	- Useful for people who want to run legacy .ELF homebrew,
-	or need to use the Homebrew Launcher-only apps
+	- It allows you to swap between the Aroma and SPFN environments easily
 </long_description>
 	<category>Misc</category>
 	<url>https://github.com/bigmaxine/EnvSwap/</url>
