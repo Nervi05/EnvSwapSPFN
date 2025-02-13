@@ -71,7 +71,7 @@ int main(int argc, char **argv)
 	defaultcfg = fopen(StringUtils::Format("{}default.cfg", DEFAULT_ENVIRONMENT_SD_PATH).c_str(), "w");
 
 	if (isAroma)
-		fputs("tiramisu", defaultcfg);
+		fputs("SPFN", defaultcfg);
 	else
 		fputs("aroma", defaultcfg);
 
