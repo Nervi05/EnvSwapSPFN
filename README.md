@@ -3,13 +3,10 @@
 
 ## Wii U Environment Swapper
 
-This is a slightly overengineered app that just restarts your console and swaps the environment, with the purpose of running Tiramisu applications easier instead of rebooting your console manually, holding X and then doing all of the EnvironmentLoader stuff manually.<br>
+This is just a test, to see if its Possible to switch between 2 Aroma Enviroments (Base Aroma and SPFN).<br>
 
-Opening the app in Tiramisu (input changes nothing) reboots to Aroma’s Wii U Home Menu<br>
-
-Opening the app in Aroma with no buttons pressed reboots Tiramisu’s HBL<br>
-
-Opening the app in Aroma with the B button pressed reboots Tiramisu’s Wii U Menu<br>
+Opening this app in the normal Version of Aroma reboots the WiiU and (hopefully) switches to SPFN<br>
+Opening this when using SPFN reboots the WiiU and it should switch back to the Base Aroma version<br>
 
 ## Building
 
