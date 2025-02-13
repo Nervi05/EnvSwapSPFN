@@ -14,15 +14,15 @@ const char *Environment::GetEnvironmentName()
     if (envPathString.compare(DEFAULT_AROMA_ENVIRONMENT_SD_PATH) == 0)
         return "aroma";
     else if (envPathString.compare(DEFAULT_TIRAMISU_ENVIRONMENT_SD_PATH) == 0)
-        return "tiramisu";
+        return "SPFN";
     else
         return "legacy";
 }
 
 const char *Environment::GetOppositeEnvironmentName(std::string &currentEnv)
 {
-    return currentEnv == "tiramisu" ? "aroma" : "tiramisu";
-    // if currentEnv is tiramisu, return aroma, else if it is aroma or is legacy, return tiramisu
+    return currentEnv == "SPFN" ? "aroma" : "SPFN";
+    // if currentEnv is SPFN, return aroma, else if it is aroma or is legacy, return SPFN
 }
 
 bool Environment::CheckFolderExist(const std::string &path)
